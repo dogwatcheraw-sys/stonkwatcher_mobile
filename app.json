@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "StonkWatcher",
@@ -5,22 +6,23 @@
     "version": "1.0.0",
     "scheme": "stonkwatcher",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/app-icon.png",
     "userInterfaceStyle": "light",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "xyz.stonkwatcher.app",
-      "usesAppleSignIn": true
+      "usesAppleSignIn": true,
+      "icon": "./assets/images/app-icon.png"
     },
     "android": {
+      "package": "xyz.stonkwatcher.app.uat",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#101010",
+        "foregroundImage": "./assets/images/app-icon.png"
       },
       "predictiveBackGestureEnabled": false
     },
