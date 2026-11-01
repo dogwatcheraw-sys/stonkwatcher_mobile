@@ -1,4 +1,3 @@
-
 {
   "expo": {
     "name": "StonkWatcher",
@@ -36,6 +35,23 @@
       "expo-web-browser",
       "expo-sharing",
       "expo-apple-authentication"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "47eab330-6b7c-47be-b557-f098c5bc40a2"
+      }
+    },
+    "owner": "watchingdogzs-team",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/47eab330-6b7c-47be-b557-f098c5bc40a2"
+    }
   }
 }
